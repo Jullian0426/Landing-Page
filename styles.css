@@ -1,0 +1,191 @@
+/* Reset some basic elements */
+body, h1, h2, p, a, button {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif; /* You can change the font to match the design if needed */
+}
+
+/* Apply background colors */
+body {
+  background-color: #F9FAF8;
+}
+
+header, .hero, footer {
+  background-color: #1F2937;
+}
+
+.quote {
+  background-color: #E5E7EB;
+}
+
+/* Styling the header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  color: #F9FAF8;
+}
+
+.header-logo {
+  font-size: 24px;
+}
+
+nav a {
+  color: #E5E7EB;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 0 1em;
+}
+
+/* Hero section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em;
+  color: #F9FAF8;
+}
+
+.hero-text {
+  flex: 1;
+  padding-right: 2em;
+}
+
+.hero-image {
+  flex: 1;
+  max-width: 50%;
+  height: auto;
+}
+
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #F9FAF8;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.hero button {
+  background-color: #3882F6;
+  color: #FFF;
+  border: none;
+  padding: 1em 2em;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* Info section */
+.info {
+  text-align: center;
+  padding: 2em 0;
+}
+
+.info h2 {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1F2937;
+  margin-bottom: 2em;
+}
+
+.info-boxes {
+  display: flex;
+  justify-content: space-around;
+}
+
+.info-box {
+  margin: 0.5em;
+  text-align: center;
+}
+
+.info-image {
+  width: 80%;
+  height: auto;
+  border: 3px solid #3882F6;
+  border-radius: 10px;
+  margin-bottom: 1em;
+}
+
+.info-box p {
+  font-size: 18px;
+  color: #1F2937;
+}
+
+/* Quote Section */
+.quote {
+  background-color: #E5E7EB;
+  padding: 2em;
+  text-align: center;
+}
+
+.quote p {
+  font-size: 36px;
+  font-style: italic;
+  margin-bottom: 0.5em;
+}
+
+.quote-author {
+  display: block;
+  color: #1F2937;
+  font-size: 24px;
+  margin-top: 0.5em;
+}
+
+/* Call to Action Section */
+.call-to-action {
+  background-color: #FFFFFF;
+  padding: 4em 0;
+  display: flex;
+  justify-content: center;
+}
+
+.cta-container {
+  background-color: #3882F6;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2em;
+  max-width: 800px;
+  width: 100%;
+}
+
+.cta-text p:first-child {
+  font-weight: bold;
+  margin-right: 1em;
+}
+
+.cta-text,
+.cta-button {
+  color: white;
+  margin: 0 1em;
+}
+
+.cta-button button {
+  background-color: #3882F6;
+  color: #ffffff; 
+  border: 2px solid #FFFFFF;
+  padding: 1em 2em;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px; 
+}
+
+.cta-button button:hover {
+  background-color: #2a6db2;
+}
+
+/* Footer */
+footer {
+  background-color: #1F2937;
+  color: #E5E7EB;
+  padding: 1em;
+  text-align: center;
+}
+
+
